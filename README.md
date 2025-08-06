@@ -44,15 +44,16 @@ Database:
 Payment:
 ![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
 
+<!--
 Screenshots
 User Interface
 
 Admin Portal
 Dashboard	Product Management
-https://admin-dashboard.png <!-- Add image -->	https://admin-products.png <!-- Add image -->
+https://admin-dashboard.png 
 Sales analytics overview	Add/edit products and categories
 Order Management	Banner Control
-https://admin-orders.png <!-- Add image -->	https://admin-banners.png <!-- Add image -->
+https://admin-orders.png
 Update order status in real-time	Customize homepage promotions
 Getting Started
 Prerequisites
@@ -61,7 +62,7 @@ Node.js (v16+)
 MongoDB Atlas account or local instance
 
 Razorpay merchant account
-
+-->
 Installation
 Clone the repository:
 
