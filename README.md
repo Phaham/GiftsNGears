@@ -1,7 +1,8 @@
-#GiftsNGears - Gifts & Autoparts Ordering and Delivery WebApp
+# GiftsNGears - Gifts & Autoparts Ordering and Delivery WebApp
 
+<!--
 ![Home Page image](https://ibb.co/rGGpdcg4)
-
+-->
 GiftsNGears is a full-stack platform specializing in gifts and auto parts, featuring a comprehensive admin portal for real-time content management. Built with React, Node.js, and MongoDB.
 
 Live Demo: https://wears-n-gears.vercel.app/
