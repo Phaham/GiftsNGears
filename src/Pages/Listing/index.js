@@ -41,15 +41,21 @@ const Listing = () => {
     let url = window.location.href;
     let apiEndPoint = "";
 
+    // if (url.includes("subCat")) {
+    //   apiEndPoint = `/api/products/subCatId?subCatId=${id}&location=${localStorage.getItem(
+    //     "location"
+    //   )}`;
+    // }
+    // if (url.includes("category")) {
+    //   apiEndPoint = `/api/products/catId?catId=${id}&location=${localStorage.getItem(
+    //     "location"
+    //   )}`;
+    // }
     if (url.includes("subCat")) {
-      apiEndPoint = `/api/products/subCatId?subCatId=${id}&location=${localStorage.getItem(
-        "location"
-      )}`;
+      apiEndPoint = `/api/products/subCatId?subCatId=${id}}`;
     }
     if (url.includes("category")) {
-      apiEndPoint = `/api/products/catId?catId=${id}&location=${localStorage.getItem(
-        "location"
-      )}`;
+      apiEndPoint = `/api/products/catId?catId=${id}}`;
     }
 
     setisLoading(true);
@@ -72,15 +78,21 @@ const Listing = () => {
       let url = window.location.href;
       let apiEndPoint = "";
   
+      // if (url.includes("subCat")) {
+      //   apiEndPoint = `/api/products/subCatId?subCatId=${id}&location=${localStorage.getItem(
+      //     "location"
+      //   )}&page=${1}&perPage=${val}`;
+      // }
+      // if (url.includes("category")) {
+      //   apiEndPoint = `/api/products/catId?catId=${id}&location=${localStorage.getItem(
+      //     "location"
+      //   )}&page=${1}&perPage=${val}`;
+      // }
       if (url.includes("subCat")) {
-        apiEndPoint = `/api/products/subCatId?subCatId=${id}&location=${localStorage.getItem(
-          "location"
-        )}&page=${1}&perPage=${val}`;
+        apiEndPoint = `/api/products/subCatId?subCatId=${id}&page=${1}&perPage=${val}`;
       }
       if (url.includes("category")) {
-        apiEndPoint = `/api/products/catId?catId=${id}&location=${localStorage.getItem(
-          "location"
-        )}&page=${1}&perPage=${val}`;
+        apiEndPoint = `/api/products/catId?catId=${id}&page=${1}&perPage=${val}`;
       }
   
       setisLoading(true);
@@ -102,15 +114,21 @@ const Listing = () => {
     let url = window.location.href;
     let apiEndPoint = "";
 
+    // if (url.includes("subCat")) {
+    //   apiEndPoint = `/api/products/subCatId?subCatId=${id}&location=${localStorage.getItem(
+    //     "location"
+    //   )}&page=${value}&perPage=8`;
+    // }
+    // if (url.includes("category")) {
+    //   apiEndPoint = `/api/products/catId?catId=${id}&location=${localStorage.getItem(
+    //     "location"
+    //   )}&page=${value}&perPage=8`;
+    // }
     if (url.includes("subCat")) {
-      apiEndPoint = `/api/products/subCatId?subCatId=${id}&location=${localStorage.getItem(
-        "location"
-      )}&page=${value}&perPage=8`;
+      apiEndPoint = `/api/products/subCatId?subCatId=${id}&page=${value}&perPage=8`;
     }
     if (url.includes("category")) {
-      apiEndPoint = `/api/products/catId?catId=${id}&location=${localStorage.getItem(
-        "location"
-      )}&page=${value}&perPage=8`;
+      apiEndPoint = `/api/products/catId?catId=${id}&page=${value}&perPage=8`;
     }
 
     setisLoading(true);

@@ -132,7 +132,7 @@ const Home = () => {
   
   console.log('products data', productsData);
   console.log('Filter data', filterData)
-  console.log('cat data', context.catData)
+  console.log('cat data', context.categoryData)
 
   return (
     <>
@@ -237,8 +237,10 @@ const Home = () => {
                     modules={[Navigation]}
                     className="mySwiper"
                   >
-                    {filterData?.length !== 0 &&
-                      filterData
+                    {/* {filterData?.length !== 0 &&
+                      filterData */}
+                    {featuredProducts?.length !== 0 &&
+                      featuredProducts
                         ?.slice(0)
                         ?.reverse()
                         ?.map((item, index) => {
