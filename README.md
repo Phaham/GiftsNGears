@@ -67,18 +67,20 @@ Razorpay merchant account
 Installation
 Clone the repository:
 
-bash
+```bash
 git clone https://github.com/phaham/GiftsNGears.git
 cd GiftsNGears
-
-bash
+```
+```bash
 # Backend
 cd backend
 npm install
-
+```
 # Frontend
+```
 cd ../frontend
 npm install
+```
 Set up environment variables (.env in backend):
 
 env
@@ -88,14 +90,16 @@ RAZORPAY_KEY_SECRET=your_razorpay_secret
 JWT_SECRET=your_jwt_secret
 Run the application:
 
-bash
+```bash
 # Start backend
 cd server
 npm start
-
+```
 # Start frontend (in new terminal)
+```
 cd client
 npm start
+```
 
 Future Enhancements
 - Mobile app integration
