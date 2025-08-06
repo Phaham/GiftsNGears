@@ -1,6 +1,6 @@
-GiftsNGears - Gifts & Autoparts Ordering and Delivery WebApp
+#GiftsNGears - Gifts & Autoparts Ordering and Delivery WebApp
 
-https://ibb.co/rGGpdcg4
+![Home Page image](https://ibb.co/rGGpdcg4)
 
 GiftsNGears is a full-stack platform specializing in gifts and auto parts, featuring a comprehensive admin portal for real-time content management. Built with React, Node.js, and MongoDB.
 
@@ -31,18 +31,18 @@ Sales Reporting: Track performance metrics
 
 Tech Stack
 Frontend:
-https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 Backend:
-https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
-https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
 Database:
-https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 Payment:
-https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF
+![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
 
 Screenshots
 User Interface
@@ -66,9 +66,8 @@ Installation
 Clone the repository:
 
 bash
-git clone https://github.com/your-username/GiftsNGears.git
+git clone https://github.com/phaham/GiftsNGears.git
 cd GiftsNGears
-Install dependencies:
 
 bash
 # Backend
@@ -89,17 +88,12 @@ Run the application:
 
 bash
 # Start backend
-cd backend
+cd server
 npm start
 
 # Start frontend (in new terminal)
-cd frontend
+cd client
 npm start
-
-Access the application:
-
-User site: http://localhost:3000
-Admin portal: http://localhost:3000/admin (Use admin credentials)
 
 Future Enhancements
 - Mobile app integration
