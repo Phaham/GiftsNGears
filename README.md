@@ -65,12 +65,12 @@ cd GiftsNGears
 ```
 ```bash
 # Backend
-cd backend
+cd server
 npm install
 ```
 # Frontend
 ```
-cd ../frontend
+cd client
 npm install
 ```
 ##### Set up environment variables (.env in backend):
