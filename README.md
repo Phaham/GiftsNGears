@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+GiftsNGears - Gifts & Autoparts Ordering and Delivery WebApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://ibb.co/rGGpdcg4
 
-## Available Scripts
+GiftsNGears is a full-stack platform specializing in gifts and auto parts, featuring a comprehensive admin portal for real-time content management. Built with React, Node.js, and MongoDB.
 
-In the project directory, you can run:
+Live Demo: https://wears-n-gears.vercel.app/
 
-### `npm start`
+Key Features
+🛒 User-Facing Store
+Product Catalog: Browse gifts and auto parts with category filters
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Secure Checkout: Razorpay payment gateway integration
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Order Tracking: Real-time status updates
 
-### `npm test`
+Shopping Cart: Intuitive cart management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sales Analytics: Dashboard with purchase trends
 
-### `npm run build`
+🛠️ Admin Portal
+Live Inventory Management: Add/update products and categories
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Order Processing: Update status (Pending → Accepted → Delivered)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Banner Customization: Control homepage promotions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Real-time Sync: Instant updates to live site
 
-### `npm run eject`
+Sales Reporting: Track performance metrics
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tech Stack
+Frontend:
+https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Backend:
+https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Database:
+https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Payment:
+https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF
 
-## Learn More
+Screenshots
+User Interface
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Admin Portal
+Dashboard	Product Management
+https://admin-dashboard.png <!-- Add image -->	https://admin-products.png <!-- Add image -->
+Sales analytics overview	Add/edit products and categories
+Order Management	Banner Control
+https://admin-orders.png <!-- Add image -->	https://admin-banners.png <!-- Add image -->
+Update order status in real-time	Customize homepage promotions
+Getting Started
+Prerequisites
+Node.js (v16+)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MongoDB Atlas account or local instance
 
-### Code Splitting
+Razorpay merchant account
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Installation
+Clone the repository:
 
-### Analyzing the Bundle Size
+bash
+git clone https://github.com/your-username/GiftsNGears.git
+cd GiftsNGears
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+bash
+# Backend
+cd backend
+npm install
 
-### Making a Progressive Web App
+# Frontend
+cd ../frontend
+npm install
+Set up environment variables (.env in backend):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+env
+MONGODB_URI=your_mongodb_connection_string
+RAZORPAY_KEY_ID=your_razorpay_key
+RAZORPAY_KEY_SECRET=your_razorpay_secret
+JWT_SECRET=your_jwt_secret
+Run the application:
 
-### Advanced Configuration
+bash
+# Start backend
+cd backend
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Start frontend (in new terminal)
+cd frontend
+npm start
 
-### Deployment
+Access the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+User site: http://localhost:3000
+Admin portal: http://localhost:3000/admin (Use admin credentials)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Future Enhancements
+- Mobile app integration
+- AI-powered product recommendations
+- Multi-vendor marketplace support
+- Advanced sales forecasting
