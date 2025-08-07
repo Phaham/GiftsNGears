@@ -3,10 +3,6 @@
 GiftsNGears is a platform specializing in ordering and delivering of gifts and auto parts, featuring a comprehensive admin portal for real-time content management. Built with React, Node.js, and MongoDB.
 
 - Live Demo: https://wears-n-gears.vercel.app/
-  
-![a2evus](https://github.com/user-attachments/assets/e04f5a43-05ae-43e2-9c9b-01eba647659c)
-![a2exsi](https://github.com/user-attachments/assets/8e84944d-7f5f-4772-ae04-c4ff5fd0f617)
-![a2ezr0](https://github.com/user-attachments/assets/95161db9-b15e-458e-8f38-879c7ec6a3d3)
 
 ##### Key Features
 🛒 User-Facing Store
@@ -15,6 +11,10 @@ GiftsNGears is a platform specializing in ordering and delivering of gifts and a
 - Order Tracking: Real-time status updates
 - Shopping Cart: Intuitive cart management
 - Sales Analytics: Dashboard with purchase trends
+
+![a2evus](https://github.com/user-attachments/assets/e04f5a43-05ae-43e2-9c9b-01eba647659c)
+![a2exsi](https://github.com/user-attachments/assets/8e84944d-7f5f-4772-ae04-c4ff5fd0f617)
+![a2ezr0](https://github.com/user-attachments/assets/95161db9-b15e-458e-8f38-879c7ec6a3d3)
 
 🛠️ Admin Portal
 - Live Inventory Management: Add/update products and categories
