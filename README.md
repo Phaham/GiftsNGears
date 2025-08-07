@@ -1,11 +1,13 @@
 # GiftsNGears - Gifts & Autoparts Ordering and Delivery WebApp
 
-<!--
-![Home Page image](https://ibb.co/rGGpdcg4)
--->
-GiftsNGears is a full-stack platform specializing in gifts and auto parts, featuring a comprehensive admin portal for real-time content management. Built with React, Node.js, and MongoDB.
+![a2evus](https://github.com/user-attachments/assets/e04f5a43-05ae-43e2-9c9b-01eba647659c)
+
+GiftsNGears is a platform specializing in ordering and delivering of gifts and auto parts, featuring a comprehensive admin portal for real-time content management. Built with React, Node.js, and MongoDB.
 
 - Live Demo: https://wears-n-gears.vercel.app/
+
+![a2exsi](https://github.com/user-attachments/assets/8e84944d-7f5f-4772-ae04-c4ff5fd0f617)
+![a2ezr0](https://github.com/user-attachments/assets/95161db9-b15e-458e-8f38-879c7ec6a3d3)
 
 ##### Key Features
 🛒 User-Facing Store
@@ -22,7 +24,11 @@ GiftsNGears is a full-stack platform specializing in gifts and auto parts, featu
 - Real-time Sync: Instant updates to live site
 - Sales Reporting: Track performance metrics
 
+![a2exxk](https://github.com/user-attachments/assets/cb21650b-579d-40d9-9d05-85b28ba834de)
+![a2ezov](https://github.com/user-attachments/assets/49a1ba3e-0377-4ff5-beca-0db383d90ec4)
+
 ##### Tech Stack
+
 - Frontend:
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -37,25 +43,9 @@ GiftsNGears is a full-stack platform specializing in gifts and auto parts, featu
 - Payment:
 ![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
 
-<!--
-Screenshots
-User Interface
+- GiftsNGears Server - https://github.com/Phaham/wears_n_gears_server
+- GiftsNGears Admin - https://github.com/Phaham/wears_n_gears_admin
 
-Admin Portal
-Dashboard	Product Management
-https://admin-dashboard.png 
-Sales analytics overview	Add/edit products and categories
-Order Management	Banner Control
-https://admin-orders.png
-Update order status in real-time	Customize homepage promotions
-Getting Started
-Prerequisites
-Node.js (v16+)
-
-MongoDB Atlas account or local instance
-
-Razorpay merchant account
--->
 ##### Installation
 - Clone the repository:
 
