@@ -69,7 +69,6 @@ MONGODB_URI=your_mongodb_connection_string
 RAZORPAY_KEY_ID=your_razorpay_key
 RAZORPAY_KEY_SECRET=your_razorpay_secret
 JWT_SECRET=your_jwt_secret
-Run the application:
 ```
 
 ```bash
