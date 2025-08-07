@@ -57,7 +57,7 @@ cd GiftsNGears
 cd server
 npm install
 ```
-# Frontend
+##### Frontend
 ```
 cd client
 npm install
@@ -77,7 +77,7 @@ Run the application:
 cd server
 npm start
 ```
-# Start frontend (in new terminal)
+##### Start frontend (in new terminal)
 ```
 cd client
 npm start
